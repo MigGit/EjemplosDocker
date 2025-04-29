@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web:/usr/share/nginx/html:ro
+    restart: always
+
+  db:
+    image: alpine
+    volumes:
+      - dbdata:/data
+    command: ["sh", "-c", "while true; do echo 'Simulando base de datos SQLite' > /data/demo.txt; sleep 10; done"]
+    restart: always
+
+volumes:
+  dbdata:
