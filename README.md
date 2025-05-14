@@ -2,7 +2,7 @@
 
 Ejemplos para presentación de Docker.
 
-![Comandos](docker-comandos-hoja-de-consulta-cheatsheet.jpeg)
+![Docker-CMD-File](docker-comandos-hoja-de-consulta-cheatsheet.jpeg)
 
 # limpia todas las instalaciones realizadas anteriormente
 
@@ -43,3 +43,5 @@ Ejemplo de creación de unas imágenes con docker conpose.
 # 06-Docket-compose-Jenkins
 
 Ejemplo de creación de un servidor Jenkins con docker conpose.
+
+![Comandos](DockerCheatSheet.jpg)
